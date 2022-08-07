@@ -3,4 +3,4 @@ def read_poem(poem_dir):
         for i in range(6):
             print(poem.readline())
 
-read_poem(r'./data')
+read_poem(r'test_data/data')
