@@ -11,7 +11,6 @@ def longest_word(file):
                     else:
                         max_size_words_count = 1
                         max_size_word = i
-
         for i in range(max_size_words_count):
             print(max_size_word)
 
