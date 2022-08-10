@@ -14,8 +14,5 @@ def req_func(generic_url, args_arr):
         response = requests.get(output_url)
         return output_url, response.status_code
 
-
-
-
 payload = {'key1': 'value1', 'key2': 'value2', 'key3': 'value3'}
 print(req_func('https://www.ozon.ru/search/?from_global=@&sorting=@&text=@', payload))
