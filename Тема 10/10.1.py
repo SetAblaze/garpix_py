@@ -9,4 +9,4 @@ def check_name(name):
     print(name)
 
 check_name('Vova')
-check_name('Vova2123')
+check_name('Vova213')
